@@ -1,5 +1,6 @@
 # SlicerBS
 A Slicer module for brain extraction and segmentation
+
 help:
 1- Before brain labeling, using check box optimize the brain extract param (higher value, smaller brain mask)
 2- uncheck the box and set iteration as 1 to provide brain label
