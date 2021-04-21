@@ -371,7 +371,7 @@ class SlicerBSLogic(ScriptedLoadableModuleLogic):
     progressbar.value = 5
     progressbar.labelText = "processing started ..."
     #------------------- Deep brain ------------------------------------------+
-    #slicer.util.pip_install("deepbrain")
+    slicer.util.pip_install("tensorflow")
     slicer.util.pip_install("scipy")
     from Resources import Extractor
     print('1-Brain extraction is started using Deep Brain extractor...')
