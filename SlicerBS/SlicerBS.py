@@ -469,7 +469,7 @@ class SlicerBSLogic(ScriptedLoadableModuleLogic):
                 for i in range(extent[0], extent[1]+1):
                     imageData.SetScalarComponentFromDouble(i,j,k,0,label_map[k,j,i])
         imageData.Modified()
-        slicer.util.setSliceViewerLayers(background=slicer.util.getNode(inputVolume.GetName()), foreground='keep-current', label=slicer.util.getNode(outputVolume.GetName()), foregroundOpacity=None, labelOpacity=0.5, fit=False, rotateToVolumePlane=False)
+        slicer.util.setSliceViewerLayers(background=slicer.util.getNode(inputVolume.GetName()), foreground='keep-current', label=slicer.util.getNode(outputVolume.GetName()), foregroundOpacity=None, labelOpacity=0.5, fit=False)
     #name1=outputVolume.GetName()
     #slicer.mrmlScene.RemoveNode(outputVolume)
     #outputVolume=slicer.util.loadLabelVolume('temp/all_labels.nii.gz', properties={}, returnNode=False)
