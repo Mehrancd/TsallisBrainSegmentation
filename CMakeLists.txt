@@ -4,12 +4,12 @@ project(SlicerBS)
 
 #-----------------------------------------------------------------------------
 # Extension meta-information
-set(EXTENSION_HOMEPAGE "https://www.slicer.org/wiki/Documentation/Nightly/Extensions/BrainSegment")
+set(EXTENSION_HOMEPAGE "https://www.slicer.org/wiki/Documentation/Nightly/Extensions/SlicerBS")
 set(EXTENSION_CATEGORY "Segmentation")
 set(EXTENSION_CONTRIBUTORS "Mehran Azimbagirad, Fabrício H Simozo, Antonio CS Senra Filho, Luiz O Murta Junior (CSIM)")
 set(EXTENSION_DESCRIPTION "This is a Brain segmentation module")
-set(EXTENSION_ICONURL "http://www.example.com/Slicer/Extensions/BrainSegment.png")
-set(EXTENSION_SCREENSHOTURLS "http://www.example.com/Slicer/Extensions/BrainSegment/Screenshots/1.png")
+set(EXTENSION_ICONURL "https://github.com/Mehrancd/SlicerBS/tree/main/BS/Resources/Icons/BS.png")
+set(EXTENSION_SCREENSHOTURLS "https://github.com/Mehrancd/SlicerBS/Screenshot1.jpg https://github.com/Mehrancd/SlicerBS/Screenshot2.jpg")
 set(EXTENSION_DEPENDS "NA") # Specified as a list or "NA" if no dependencies
 
 #-----------------------------------------------------------------------------
@@ -19,7 +19,7 @@ include(${Slicer_USE_FILE})
 
 #-----------------------------------------------------------------------------
 # Extension modules
-add_subdirectory(BS)
+add_subdirectory(SlicerBS)
 ## NEXT_MODULE
 
 #-----------------------------------------------------------------------------
