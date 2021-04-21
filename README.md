@@ -13,7 +13,7 @@ help:
 
 4-Iteration is for Markov Random field calculation for all voxel neighbors, increasing might take time to finish (6 min for 1 it)
 
-for more details about the algorithm we refer you to https://doi.org/10.1016/j.mri.2019.11.002
+for more details about the algorithm we refer you to https://doi.org/10.1016/j.mri.2019.11.002 https://www.youtube.com/watch?v=gH4dkXm3B2E
 
 also if you used SlicerBS in your research please cite this paper:
 
