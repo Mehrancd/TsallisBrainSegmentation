@@ -4,7 +4,7 @@ project(SlicerBS)
 
 #-----------------------------------------------------------------------------
 # Extension meta-information
-set(EXTENSION_HOMEPAGE "https://www.slicer.org/wiki/Documentation/Nightly/Extensions/SlicerBS")
+set(EXTENSION_HOMEPAGE "https://github.com/Mehrancd/SlicerBS")
 set(EXTENSION_CATEGORY "Segmentation")
 set(EXTENSION_CONTRIBUTORS "Mehran Azimbagirad, Fabrício H Simozo, Antonio CS Senra Filho, Luiz O Murta Junior (CSIM)")
 set(EXTENSION_DESCRIPTION "This is a Brain segmentation module")
