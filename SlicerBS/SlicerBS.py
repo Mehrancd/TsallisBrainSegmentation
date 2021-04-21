@@ -373,7 +373,7 @@ class SlicerBSLogic(ScriptedLoadableModuleLogic):
     #------------------- Deep brain ------------------------------------------+
     slicer.util.pip_install("tensorflow")
     slicer.util.pip_install("scipy")
-    slicer.util.pip_install("skimage")
+    slicer.util.pip_install("scikit-image")
     from Resources import Extractor
     print('1-Brain extraction is started using Deep Brain extractor...')
     ext = Extractor()
