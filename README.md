@@ -7,6 +7,7 @@ help:
 ![Alt text](Screenshot1.jpg?raw=true "Using SlicerBS for brain extraction")
 
 2- uncheck the box and set iteration as 1 to provide brain label
+![Alt text](Screenshot2.jpg?raw=true "Using SlicerBS for brain label")
 
 3-alpha, beta and gamma are the weights of decision for atlas, intensity and Tsallis approches in Markov Random field 
 
