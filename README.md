@@ -18,7 +18,7 @@ Help:
 
 for more details about the algorithm we refer you to https://doi.org/10.1016/j.mri.2019.11.002 https://www.youtube.com/watch?v=gH4dkXm3B2E
 
-also if you used SlicerBS in your research please cite this paper:
+also if you used Tsallis Brain Segmentation in your research please cite this paper:
 
 Mehran Azimbagirad, Fabrício H. Simozo, Antonio C.S. Senra Filho, Luiz O. Murta Junior,
 Tsallis-Entropy Segmentation through MRF and Alzheimer anatomic reference for Brain Magnetic Resonance Parcellation,
