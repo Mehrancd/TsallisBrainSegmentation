@@ -1,17 +1,20 @@
-# SlicerBS
+# Tsallis Brain Segmentation
 A Slicer module for brain extraction and segmentation
 
-help:
+Help:
 
-1- Before brain labeling, using check box optimize the brain extract param (higher value, smaller brain mask)
+1- Before brain labeling, you can use the first box to create a mask for the brain (brain extractor parameter for higher value, smaller brain mask will be created using beepbrain module)
 ![Alt text](Screenshot1.jpg?raw=true "Using SlicerBS for brain extraction")
 
-2- uncheck the box and set iteration as 1 to provide brain label
+2- For brain segmentation, a head image, a mask and a lable map for export the result is needed.
 ![Alt text](Screenshot2.jpg?raw=true "Using SlicerBS for brain label")
 
-3-alpha, beta and gamma are the weights of decision for atlas, intensity and Tsallis approches in Markov Random field 
-
-4-Iteration is for Markov Random field calculation for all voxel neighbors, increasing might take time to finish (6 min for 1 it)
+- q is the parameter for Tsallis entropy calculation (Sq).
+- alpha is the parameter showing the weight of Tsallis entropy-Markov decision 
+- beta is the parameter showing the weight of image histogram intensity decision
+- gamma  is the parameter showing the weight of Atlas based decision for alzheimer brain images (only for such patient is effective)
+-Iteration is for Markov Random field calculation for all voxel neighbors, increasing might take time to finish (6 min to 1 hour)
+- If the results are not satisfying, check if the eyes are wrongly detected or not. They should be remove from the mask.
 
 for more details about the algorithm we refer you to https://doi.org/10.1016/j.mri.2019.11.002 https://www.youtube.com/watch?v=gH4dkXm3B2E
 
