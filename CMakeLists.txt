@@ -9,7 +9,7 @@ set(EXTENSION_CATEGORY "Examples")
 set(EXTENSION_CONTRIBUTORS "Mehran Azimbagirad (CSIM Lab), Fabricio Simozo (CSIM LAb), A C S S Filho, Luiz O M Jr")
 set(EXTENSION_DESCRIPTION "A Slicer module for brain extraction and segmentation")
 set(EXTENSION_ICONURL "http://www.example.com/Slicer/Extensions/TsallisBrainSegmentation.png")
-set(EXTENSION_SCREENSHOTURLS "http://www.example.com/Slicer/Extensions/TsallisBrainSegmentation/Screenshots/1.png")
+set(EXTENSION_SCREENSHOTURLS "https://github.com/Mehrancd/TsallisBrainSegmentation/blob/main/Screenshot1.jpg")
 set(EXTENSION_DEPENDS "NA") # Specified as a space separated string, a list or 'NA' if any
 
 #-----------------------------------------------------------------------------
