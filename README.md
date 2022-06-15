@@ -1,5 +1,8 @@
 # Tsallis Brain Segmentation
 A Slicer module for brain extraction and segmentation
+you can download the module and add it to 3D Slicer-->Edit-->Application Settings-->Modules, then add the path of the module to "Additional module paths" and restart. It will appear somewhere in module lists in Example.
+The module needs tensorflow, scikit,.... that automatically installs them. if you receive an error, push apply again might solve it.
+if you need a fast processing, you should increase the voxel size using "resample scaler volume" tool.
 
 Help:
 
